@@ -458,6 +458,7 @@ nav {
     gap: 12px;
 }
 
+
 .unknown {
     border-radius: 16px;
     width: 280px;
@@ -500,12 +501,14 @@ nav {
     justify-content: center;
     align-items: flex-start;
     gap: 8px;
-    position: absolute;
+    position: relative;
     bottom: 0;
+    z-index: 1;
 }
 
 .contacts img {
     width: 36px;
+    position: relative;        
 }
 
 
